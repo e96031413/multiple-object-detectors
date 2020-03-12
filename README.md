@@ -18,6 +18,8 @@ The models used in this app are "alwaysai/mobilenet_ssd" and "alwaysai/ssd_incep
 
 You can alter the code to use different detection models: https://alwaysai.co/docs/application_development/changing_the_model.html
 
+For more models, please refer to the following links: https://alwaysai.co/model-catalog/
+
 ### Colors
 For convenience, there is a variable called 'colors' included in the code. Should you alter 'models' to include more than two detection models, also include a new list of tuples to be used as the color to mark up the detected objects in the new model. In the included code, each 'list' contains only one tuple, so all detection boxes for a given model will appear with that color.
 
